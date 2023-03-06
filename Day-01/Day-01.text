@@ -1,0 +1,156 @@
+Day-01[06-03-2023]:
+===================
+	
+	Good Morning to All...
+
+	Python versions:
+	================
+		- python 2.x
+		- python 3.x
+
+	Python Downloads:
+	=================
+		- python.org
+		- downloads
+		- python releases
+			- stable 
+			- pre release
+		- windows x86-64 executeable installer
+
+	Python Installation:
+	====================
+		- Setup => double tap
+		- 2 options
+			- install now => [Default path]
+			- customize installation [User defined location]
+		- 2 checkboxes
+			- install for all users
+			- add python 3.x to path
+
+	Python Version Check:
+	=====================
+		- cmd
+		- python -V
+
+	Pip:
+	====
+		- To install third party packages like [jupyter,pandas,numpy,matplotlib,django,flask]
+
+	Pip version check:
+	==================
+		- cmd
+		- pip -V
+
+	Pip Upgrade:
+	============
+		- cmd
+		- python -m pip install --upgrade pip
+		- pip -V
+
+	Jupyter notebook:
+	=================
+		- cmd
+		- pip install jupyter notebook
+		
+	Running of Jupyter notebook:
+	============================
+		- cmd
+		- jupyter notebook
+
+	Python Basics:
+	==============
+		Variables:
+		==========
+			- To store a value
+			- To change a value
+			Syntax:
+				variablename = value
+
+		Variable Assignments:
+		=====================
+			- single value = single value
+			- n number of variables = n number of values
+			- n number of variables = single value
+
+		Data types:
+		===========
+			- int
+			- float
+			- string
+			- boolean
+			- complex
+			- none
+			- All Data Structures like [list,tuple,set and dictionary]
+
+		Type method:
+		============
+			- to know the data type of a variable based on a value
+			Syntax:
+				type(variablename)
+
+		Operators:
+		==========
+			- Arithmetic => +,-,*,/,%,//(floor division),**(similarly like power)
+			- Relational => >,<,>=,<=,==,!=
+			- Logical => AND,OR,NOT
+			- Bitwise => &,|,!,^,>>,<<
+			- Assignment => +=,-=,*=,/=,%=,//=,**=
+			- Memberhsip => in, not in
+			- Identity => is,is not
+
+		Conditional Statements:
+		=======================
+			- To check whether a given condition is either True or False
+			- if => 1 case
+			- if-else => 2 cases
+			- nested if => 2 or more n number of cases
+			- elif => 3 or more n number of cases
+
+		Loops:
+		======
+			- To control the flow of execution untill condition is false
+			- for => Known ranges
+			- while => known and unknown ranges
+
+		range:
+		======
+			- range(stop)
+				-> it starts with 0 and ends with stop-1 value by default it increments with 1
+				Ex:
+					range(6)
+					0 1 2 3 4 5
+			- range(start,stop):
+				-> it starts with exactly start value and ends with stop-1 value by default it increments with 1
+				Ex:
+					range(10,15)
+					10 11 12 13 14
+			- range(start,stop,step):
+				-> it starts with exactly start value and ends with stop-1 value and it increments with step value based on positive or negative value
+				Ex:
+					range(10,20,2):
+					10 12 14 16 18
+
+		Jumping statements:
+		===================
+			- break => exits a loop
+			- continue => skips a value from loop
+			- pass => similarly to continue but for future enhancements taks we can use pass in methods or in functions while creating it
+			- return => returns single or n number of values in a function
+
+		Inner Loops:
+		============
+			- loop within a loop
+
+
+		Task:
+		=====
+			- Function and its types
+			- User defined types
+			- Function argument types
+			- Introduction to Django
+			- Advantages and Disadvantages of Django
+			- Applications of Django
+			- Frameworks in Python
+
+
+
