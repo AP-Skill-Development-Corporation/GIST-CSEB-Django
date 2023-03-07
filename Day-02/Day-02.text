@@ -1,0 +1,122 @@
+Day-02[07-03-2023]:
+===================
+	Good Morning to All...
+
+	Function an its types:
+	======================
+		- To perform a specific task
+		- 2 types
+			- predefined
+			- user defined
+		Syntax:
+		=======
+			def functionname(arguments):
+				//stmnts
+				return return_value
+
+	User Defined Types:
+	===================
+		- with returntype and with arguments
+		- with returntype and without arguments
+		- without returntype and with arguments
+		- without returntype and without arguments
+
+
+	Django Installation:
+	====================
+		- cmd
+		- pip install django==3.0 [Specific version we need to mention the version]
+							or
+		  pip install django [Latest version]
+
+	Django Version Check:
+	=====================
+		- cmd
+		- django-admin --version
+
+	Project Creation:
+	=================
+		- select a particular folder and open the path by using cmd
+		- django-admin startproject "projectname"
+
+	Running of Project:
+	==================
+		- cmd
+		- manage.py runserver
+					or
+	      python manage.py runserver
+		- Port number changes
+			=> manage.py runserver portnumber
+			We need to access the url by passing the port number after local ip or host and default port for django is "8000"
+				http://127.0.0.1:8000
+				http://localhost:8000
+			=> http://127.0.0.1:new portnumber
+			   http://localhost:new portnumber
+
+
+	Admin App:
+	==========
+		- After Creating we need to navigate where a project folder exists it consists of one folder and one file
+			=> Projectname [Admin App]
+			=> manage.py [Main service file]
+		- In Admin app it consists of some files created when a project is created
+			- init => It is to be considered as python file
+			- asgi => Asynchronous Gateway Interface
+			- wsgi => Web Server Gateway Interface
+			- urls => For urls checking to a project
+			- settings => For all configurations like userapp,host,database,templates,static and email
+
+	UserApp Creation:
+	=================
+		- Open cmd where manage.py file exists then we need to type a command such as 
+			=> manage.py startapp "appname"
+						or
+			   python manage.py startapp "appname"
+			=> Another process to create an app by using django-admin
+			   django-admin startapp "appname"
+	    - After Creating an userapp it creates some files in it such as
+	    	- init => It is to be considered as python file
+	    	- admin => Configuration for admin to access the user app models
+	    	- apps => It configures the userapp
+	    	- models => Creating of Tables with different fields
+	    	- test => For testing purposes like [unit and blackbox] 
+	    	- views => It is used mainly for creating business logic implementations
+
+	Interface between urls and controllers
+
+	Packages and Modules:
+	=====================
+		package => folder
+			=> collection of modules,sub-packages
+		module => file [.py]
+			=> collection of variables,functions,class,objects and methods
+
+	Importing of modules:
+	=====================
+		- import modulename
+		- from packagename.modulename import function or class
+		- from packagename import modulename
+		- from packagename.modulename import function as aliasname
+
+	path():
+	=======
+		path('urlname',modulename.functionname)
+		=> We can pass a single or multiple value along with the urlname such as like
+			path('urlname/<datatype:variablename>/....',modulename.functionname)
+
+	Task:
+	=====
+	Yesterday Tasks:
+	----------------
+		- Introduction to Django
+		- Advantages, Disadvantages of Django
+		- Applications of Django
+		- Functions argument Types
+
+	Today Task:
+	-----------
+		- Class,Object,Method
+		- Constructor Types
+		- Inheritance Types
+		- Banking Application by using oops concept
+		- HTML Tags and CSS Stylings
