@@ -1,0 +1,60 @@
+Day-03[08-03-2023]:
+===================
+	Good Morning to All...
+
+
+	Function argument types:
+	========================
+		- Default argument
+			=> Default Values are assigned to a variables based on right to left preference
+		- Required or Positional argument
+			=> Equal parameter values are passed to a function while a function is created
+		- Keyword argument
+			=> Key names should be equal in function call and as in function but it can pass in unordered with same key names
+		- Variable-Length argument
+			=> It has a preference for a variable and then tuple and finally a dictionary while a function is created
+
+	Dynamic Url Mapping
+
+	HttpResponse with HtmlTag
+	HttpResponse with Javascript
+	HttpResponse with HtmlTag with single parameter
+	HttpResponse with HtmlTag with n number of parameters
+	HttpResponse with Javascript with single parmeter
+	HttpResponse with html structure
+	HttpResponse with html file
+
+	Templates:
+	==========
+		- To access .html files
+
+	render():
+	=========
+		- render(selfparameter,'.htmlfile',{dictionary})
+
+	Interface between Controller and Template
+	
+	DTL[Django Template Language]:
+	==============================
+		- variable
+		----------
+			{{variablename}}
+
+	Task:
+	=====
+		Yesterday Task:
+		---------------
+			- Class,Object,Method
+			- Constructor Types
+			- Inheritance Types
+			- HTML Tags
+			- CSS
+			- Banking Application by using OOPS Concepts in Python
+
+		Today Task:
+		-----------
+			- HTML5 Tags,CSS3 Styling
+			- Differences between MVC and MVT
+			- Form Controls in HTML
+			- Bootstrap4 Overview
+			- Grid System in Bootstrap4
