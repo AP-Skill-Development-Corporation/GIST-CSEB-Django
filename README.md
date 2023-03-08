@@ -14,3 +14,9 @@ Django for CSE-B
   - Django installation,Project Creation,App Creation and Running of a Project
   - Overview of Admin and User App files
   - Interface between urls to views with an example
+
+# Day-03(08-03-2023):
+  - Function argument types with sample examples on each
+  - Interface between urls to views with html tags,css stylings,javascript with sample examples on each
+  - Template Folder Creation and accessing html file
+  - Interface between controller and templates
