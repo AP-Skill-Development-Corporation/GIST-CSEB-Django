@@ -20,3 +20,8 @@ Django for CSE-B
   - Interface between urls to views with html tags,css stylings,javascript with sample examples on each
   - Template Folder Creation and accessing html file
   - Interface between controller and templates
+
+# Day-04(09-03-2023):
+  - Overview of MVC,MVT,class,object,method and constructor types
+  - Static File Handling with external and internal css
+  
