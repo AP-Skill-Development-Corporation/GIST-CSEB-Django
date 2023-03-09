@@ -1,0 +1,24 @@
+Day-04[09-03-2023]:
+===================
+	Good Morning to All....
+
+	Overview of MVC,MVT,Class,Object,Method,Constructor and its types,Form Controls
+
+	Static File Handling:
+	=====================
+		- To access .css,.js,.jquery,images etc.,
+		- DTL Language to access files in particular html such as
+			- {% load static %}
+			- {% static 'folder/filename.extension' %}
+
+	Task:
+	=====
+		Today Task:
+		-----------
+			- Bootstrap4 Overview
+			- Container,Jumbotron,colors
+			- Button types
+			- Grid System
+			- Cards,Form controls
+			- Tables
+
