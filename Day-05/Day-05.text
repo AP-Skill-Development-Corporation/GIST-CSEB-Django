@@ -1,0 +1,145 @@
+Day-05[10-03-2023]:
+===================
+	Good Morning to All....
+
+	Interface between controller to template and template to controller then controller to another template
+
+	Bootstrap-4:
+	============
+		- Builtin classes for responsive web pages
+		- Based on device css styling will be changes
+
+	Grid systems:
+	=============
+		- 12 columns
+		- Device scalings
+			- xm => very small
+			- sm => small
+			- md => medium
+			- lg => large
+			- xl => Extra large
+		- To define grid first we need to follow the row and within n number of columns
+
+	container => It occupies some margins with left and right
+	container-fluid => It has no margins
+	jumbotron => It displays grey background with text center when some text is placed with tags
+	card => card-top => card-body => card-footer
+
+	margin:
+	=======
+		- mt => margin top
+		- mb => margin bottom
+		- ml => margin left
+		- mr => margin right
+		- mx => margin right and left
+		- my => margin top and bottom
+
+	padding:
+	========
+		- pt => padding top
+		- pb => padding bottom
+		- pl => padding left
+		- pr => padding right
+		- px => padding right and left
+		- py => padding top and bottom
+
+	colors:
+	=======
+		- primary
+		- success
+		- danger
+		- info
+		- dark
+		- secondary
+		- warning
+
+	buttons:
+	========
+		- btn btn-outline-color
+
+	background color:
+	=================
+		- bg-color
+
+	For Padding and Margin we can assign points to occupy some pixels such as like 
+		=> mx-2,px-2
+		Here the points are from 1 to 5
+
+	Models => To create a table with different fields such as 
+		=> CharField,IntegerField,DecimalField,EmailField etc.,
+
+	MakeMigrations => To Create an interface for a table based on the class 
+	Migrate => It creates a table based on the interface file
+
+	ORM [Object Relational Mapper]:
+	===============================
+		- cmd
+		- python manage.py shell
+					or
+		  manage.py shell
+
+	ORM Queries:
+	============
+		Create:
+		-------
+			save():
+				objectname = classname(fieldname1="value1",fieldname2="value2")
+				objectname.save()
+			create():
+				objectname = classname.objects.create(fieldname="value")
+			Note: In create method no need to use save method it inserts directly without any method
+
+		Reading:
+		--------
+			get():
+				- Need to use only unique values to access if we are accessing the duplicate values it shows an error or any record is not exists then it also shows errors
+				- objectname = classname.objects.get(fieldname="value")
+				- It access only single record value
+
+			filter():
+				- It is used for duplicate record values if the value is not existing in table it shows empty without any errors
+				- objectname = classname.objects.filter(fieldname="value")
+				- It access n number of records based on the value in a table. To display all records then we need to use the loops to display each and every field in that table
+
+			slicing:
+				- We can access the particular record values from and to based on the indexing
+				- objectname = classname.objects.all()[start:stop]
+
+			all():
+				- We can access all n number of records 
+				- objectname = classname.objects.all()
+
+		Updating:
+		---------
+			- We can update the value based on the get method for any field values
+			- objectname = classname.objects.get(fieldname=value)
+			- objectname.fieldname = newvalue
+			- objectname.save()
+
+		Delete:
+		-------
+			single record:
+				- We can delete single record by using get method
+				- objectname = classname.objects.get(fieldname="value")
+				- objectname.delete()
+								or
+				- objectname = classname.objects.get(fieldname=value).delete()
+
+			Multiple records:
+				- We an delete n number of duplicate records by using filter
+				- objectname = classname.objects.filter(fieldname=value)
+				- objectname.delete()
+								or
+				- objectname = classname.objects.filter(fieldname=value).delete()
+
+			All records:
+				- We can delete all records by using the all
+				- objectname = classname.objects.all()
+								or
+				- objectname = classname.objects.all().delete()
+
+	Task:
+	=====
+		- Bootstrap Tables
+		- Alerts
+		
