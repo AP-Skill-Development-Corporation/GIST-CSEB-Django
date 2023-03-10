@@ -24,4 +24,9 @@ Django for CSE-B
 # Day-04(09-03-2023):
   - Overview of MVC,MVT,class,object,method and constructor types
   - Static File Handling with external and internal css
-  
+
+# Day-05(10-03-2023):
+  - Overview of Bootstrap-4
+  - Container,container-fluid,colors,jumbotron,buttons,card,grid system
+  - ORM Overview and creating of table with user defined fields
+  - CRUD Operations with ORM Queries in a shell
