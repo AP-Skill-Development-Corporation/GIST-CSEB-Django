@@ -1,0 +1,77 @@
+Day-06[11-03-2023]:
+===================
+	Good Morning to All....
+
+	CRUD Operations to a userdefined model by using bootstrap 4 stylings
+
+	Template Blocks:
+	================
+		- variable
+			=> {{variablename}}
+		- Conditional statements
+			=> {% if condition %}
+					//stmnts
+			   {% endif %}
+			=> {% if condition %}
+					//stmnts
+			   {% else %}
+			   		//stmnts
+			   {% endif %}
+			=> similarly for elif 
+		- Loops
+			=> {% for iterationvariablename in iterator %}
+							//stmnts
+			   {% endfor %}
+			=> similarly for while
+		- urls
+			=> {% url 'url name in path' %}
+		- Static
+			=> {% load static %}
+			=> {% url static 'css/filename.css' %}
+			=> {% url static 'js/filename.js' %}
+			=> {% url static 'jquery/filename.js' %}
+			=> {% url static 'images/filename.extension' %}
+		- Include => To access the another template file within a file
+			=> {% include 'folder/filename.extension' %}
+		- Extends => It access the main file for a link to apply some stylings
+			=> {% extends 'folder/filename.extension' %}
+		- Title
+			=> {% block title %}Content name {% endblock %}
+		- Blocks
+			=> {% block content %}
+					//stmnts
+			   {% endblock %}
+	SuperUserCreation:
+	==================
+		=> cmd
+		=> python manage.py createsuperuser
+						or
+		   manage.py createsuperuser
+		=> After need to enter admin name or choose default name that is username exist for a system
+		=> Enter email or else we can skip that field value
+		=> Enter password but password wont display what we are entering
+		=> Re-enter password again for confirming the password
+		=> Then validation option has to be decided by user then press "y" for creating a user
+		=> Finally Admin account is created by using command prompt with the help of manage.py file
+
+	Form Creation by Existing model:
+	================================
+		- Existing model can be used by import the statements such as
+			- from django.contrib.auth.models import User
+			User is the existing model consists of default fields in it
+		- Existing form to create a user creation form
+			- from django.contrib.auth.forms import UserCreationForm
+		- In creating the form we can restrict the fields by using the fields in creating a new user class defined in forms.py file		   
+
+	Forms => To access the model and then we can display those fields to an html by using it in views
+		=> Instead of coding all fields with input it decreases the user work and code to create with particular field types
+
+	Widgets:
+	========
+		- To access the bootstrap styling we can apply it by using forms
+		- To restrict the field types to a form
+		- To use inputs to a form we need to use some class names to access styling to it in widget such classnames are TextInput,PasswordInput,NumberInput,FileInput etc.,
+
+
+		-
+
