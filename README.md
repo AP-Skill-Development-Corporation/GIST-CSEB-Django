@@ -30,3 +30,10 @@ Django for CSE-B
   - Container,container-fluid,colors,jumbotron,buttons,card,grid system
   - ORM Overview and creating of table with user defined fields
   - CRUD Operations with ORM Queries in a shell
+
+# Day-06(11-03-2023):
+  - CRUD Operations by using Bootstrap Styling
+  - Template blocks for include,extend,title,conditional and control statments,body of content
+  - SuperUser Creation,Useage of admin app
+  - Roles of users,Forms concept with Widgets for it
+  - User Authentication and Authorization
